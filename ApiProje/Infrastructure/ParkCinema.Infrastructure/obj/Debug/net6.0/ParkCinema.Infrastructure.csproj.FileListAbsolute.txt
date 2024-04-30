@@ -1,0 +1,35 @@
+D:\work2\Asp.Net API\ApiProject\Infrastructure\ParkCinema.Infrastructure\bin\Debug\net6.0\ParkCinema.Infrastructure.deps.json
+D:\work2\Asp.Net API\ApiProject\Infrastructure\ParkCinema.Infrastructure\bin\Debug\net6.0\ParkCinema.Infrastructure.dll
+D:\work2\Asp.Net API\ApiProject\Infrastructure\ParkCinema.Infrastructure\bin\Debug\net6.0\ParkCinema.Infrastructure.pdb
+D:\work2\Asp.Net API\ApiProject\Infrastructure\ParkCinema.Infrastructure\bin\Debug\net6.0\ParkCinema.Application.dll
+D:\work2\Asp.Net API\ApiProject\Infrastructure\ParkCinema.Infrastructure\bin\Debug\net6.0\ParkCinema.Domain.dll
+D:\work2\Asp.Net API\ApiProject\Infrastructure\ParkCinema.Infrastructure\bin\Debug\net6.0\ParkCinema.Application.pdb
+D:\work2\Asp.Net API\ApiProject\Infrastructure\ParkCinema.Infrastructure\bin\Debug\net6.0\ParkCinema.Domain.pdb
+D:\work2\Asp.Net API\ApiProject\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\ParkCinema.Infrastructure.csproj.AssemblyReference.cache
+D:\work2\Asp.Net API\ApiProject\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\ParkCinema.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\work2\Asp.Net API\ApiProject\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\ParkCinema.Infrastructure.AssemblyInfoInputs.cache
+D:\work2\Asp.Net API\ApiProject\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\ParkCinema.Infrastructure.AssemblyInfo.cs
+D:\work2\Asp.Net API\ApiProject\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\ParkCinema.Infrastructure.csproj.CoreCompileInputs.cache
+D:\work2\Asp.Net API\ApiProject\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\ParkCinema.Infrastructure.csproj.CopyComplete
+D:\work2\Asp.Net API\ApiProject\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\ParkCinema.Infrastructure.dll
+D:\work2\Asp.Net API\ApiProject\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\refint\ParkCinema.Infrastructure.dll
+D:\work2\Asp.Net API\ApiProject\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\ParkCinema.Infrastructure.pdb
+D:\work2\Asp.Net API\ApiProject\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\ref\ParkCinema.Infrastructure.dll
+C:\Users\KINO\Desktop\Ali\ApiProje\Infrastructure\ParkCinema.Infrastructure\bin\Debug\net6.0\ParkCinema.Infrastructure.deps.json
+C:\Users\KINO\Desktop\Ali\ApiProje\Infrastructure\ParkCinema.Infrastructure\bin\Debug\net6.0\ParkCinema.Infrastructure.dll
+C:\Users\KINO\Desktop\Ali\ApiProje\Infrastructure\ParkCinema.Infrastructure\bin\Debug\net6.0\ParkCinema.Infrastructure.pdb
+C:\Users\KINO\Desktop\Ali\ApiProje\Infrastructure\ParkCinema.Infrastructure\bin\Debug\net6.0\ParkCinema.Application.dll
+C:\Users\KINO\Desktop\Ali\ApiProje\Infrastructure\ParkCinema.Infrastructure\bin\Debug\net6.0\ParkCinema.Domain.dll
+C:\Users\KINO\Desktop\Ali\ApiProje\Infrastructure\ParkCinema.Infrastructure\bin\Debug\net6.0\ParkCinema.Application.pdb
+C:\Users\KINO\Desktop\Ali\ApiProje\Infrastructure\ParkCinema.Infrastructure\bin\Debug\net6.0\ParkCinema.Domain.pdb
+C:\Users\KINO\Desktop\Ali\ApiProje\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\ParkCinema.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\KINO\Desktop\Ali\ApiProje\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\ParkCinema.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KINO\Desktop\Ali\ApiProje\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\ParkCinema.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\KINO\Desktop\Ali\ApiProje\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\ParkCinema.Infrastructure.AssemblyInfo.cs
+C:\Users\KINO\Desktop\Ali\ApiProje\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\ParkCinema.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\KINO\Desktop\Ali\ApiProje\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\ParkCinema.Infrastructure.sourcelink.json
+C:\Users\KINO\Desktop\Ali\ApiProje\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\ParkCine.B345666F.Up2Date
+C:\Users\KINO\Desktop\Ali\ApiProje\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\ParkCinema.Infrastructure.dll
+C:\Users\KINO\Desktop\Ali\ApiProje\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\refint\ParkCinema.Infrastructure.dll
+C:\Users\KINO\Desktop\Ali\ApiProje\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\ParkCinema.Infrastructure.pdb
+C:\Users\KINO\Desktop\Ali\ApiProje\Infrastructure\ParkCinema.Infrastructure\obj\Debug\net6.0\ref\ParkCinema.Infrastructure.dll

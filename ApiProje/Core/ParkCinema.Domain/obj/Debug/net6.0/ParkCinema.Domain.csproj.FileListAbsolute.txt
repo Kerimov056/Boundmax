@@ -1,0 +1,25 @@
+D:\work2\Asp.Net API\ApiProject\Core\ParkCinema.Domain\bin\Debug\net6.0\ParkCinema.Domain.deps.json
+D:\work2\Asp.Net API\ApiProject\Core\ParkCinema.Domain\bin\Debug\net6.0\ParkCinema.Domain.dll
+D:\work2\Asp.Net API\ApiProject\Core\ParkCinema.Domain\bin\Debug\net6.0\ParkCinema.Domain.pdb
+D:\work2\Asp.Net API\ApiProject\Core\ParkCinema.Domain\obj\Debug\net6.0\ParkCinema.Domain.csproj.AssemblyReference.cache
+D:\work2\Asp.Net API\ApiProject\Core\ParkCinema.Domain\obj\Debug\net6.0\ParkCinema.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\work2\Asp.Net API\ApiProject\Core\ParkCinema.Domain\obj\Debug\net6.0\ParkCinema.Domain.AssemblyInfoInputs.cache
+D:\work2\Asp.Net API\ApiProject\Core\ParkCinema.Domain\obj\Debug\net6.0\ParkCinema.Domain.AssemblyInfo.cs
+D:\work2\Asp.Net API\ApiProject\Core\ParkCinema.Domain\obj\Debug\net6.0\ParkCinema.Domain.csproj.CoreCompileInputs.cache
+D:\work2\Asp.Net API\ApiProject\Core\ParkCinema.Domain\obj\Debug\net6.0\ParkCinema.Domain.dll
+D:\work2\Asp.Net API\ApiProject\Core\ParkCinema.Domain\obj\Debug\net6.0\refint\ParkCinema.Domain.dll
+D:\work2\Asp.Net API\ApiProject\Core\ParkCinema.Domain\obj\Debug\net6.0\ParkCinema.Domain.pdb
+D:\work2\Asp.Net API\ApiProject\Core\ParkCinema.Domain\obj\Debug\net6.0\ref\ParkCinema.Domain.dll
+C:\Users\KINO\Desktop\Ali\ApiProje\Core\ParkCinema.Domain\bin\Debug\net6.0\ParkCinema.Domain.deps.json
+C:\Users\KINO\Desktop\Ali\ApiProje\Core\ParkCinema.Domain\bin\Debug\net6.0\ParkCinema.Domain.dll
+C:\Users\KINO\Desktop\Ali\ApiProje\Core\ParkCinema.Domain\bin\Debug\net6.0\ParkCinema.Domain.pdb
+C:\Users\KINO\Desktop\Ali\ApiProje\Core\ParkCinema.Domain\obj\Debug\net6.0\ParkCinema.Domain.csproj.AssemblyReference.cache
+C:\Users\KINO\Desktop\Ali\ApiProje\Core\ParkCinema.Domain\obj\Debug\net6.0\ParkCinema.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KINO\Desktop\Ali\ApiProje\Core\ParkCinema.Domain\obj\Debug\net6.0\ParkCinema.Domain.AssemblyInfoInputs.cache
+C:\Users\KINO\Desktop\Ali\ApiProje\Core\ParkCinema.Domain\obj\Debug\net6.0\ParkCinema.Domain.AssemblyInfo.cs
+C:\Users\KINO\Desktop\Ali\ApiProje\Core\ParkCinema.Domain\obj\Debug\net6.0\ParkCinema.Domain.csproj.CoreCompileInputs.cache
+C:\Users\KINO\Desktop\Ali\ApiProje\Core\ParkCinema.Domain\obj\Debug\net6.0\ParkCinema.Domain.sourcelink.json
+C:\Users\KINO\Desktop\Ali\ApiProje\Core\ParkCinema.Domain\obj\Debug\net6.0\ParkCinema.Domain.dll
+C:\Users\KINO\Desktop\Ali\ApiProje\Core\ParkCinema.Domain\obj\Debug\net6.0\refint\ParkCinema.Domain.dll
+C:\Users\KINO\Desktop\Ali\ApiProje\Core\ParkCinema.Domain\obj\Debug\net6.0\ParkCinema.Domain.pdb
+C:\Users\KINO\Desktop\Ali\ApiProje\Core\ParkCinema.Domain\obj\Debug\net6.0\ref\ParkCinema.Domain.dll
