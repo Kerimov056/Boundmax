@@ -114,12 +114,12 @@
         },
         "compile": {
           "lib/net6.0/MailKit.dll": {
-            "related": ".dll.config;.xml;.pdb"
+            "related": ".dll.config;.pdb;.xml"
           }
         },
         "runtime": {
           "lib/net6.0/MailKit.dll": {
-            "related": ".dll.config;.xml;.pdb"
+            "related": ".dll.config;.pdb;.xml"
           }
         }
       },
@@ -468,12 +468,12 @@
         },
         "compile": {
           "ref/netcoreapp3.1/Microsoft.Data.SqlClient.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtimeTargets": {
@@ -1023,12 +1023,12 @@
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -1091,12 +1091,12 @@
         },
         "compile": {
           "lib/net6.0/MimeKit.dll": {
-            "related": ".dll.config;.xml;.pdb"
+            "related": ".dll.config;.pdb;.xml"
           }
         },
         "runtime": {
           "lib/net6.0/MimeKit.dll": {
-            "related": ".dll.config;.xml;.pdb"
+            "related": ".dll.config;.pdb;.xml"
           }
         }
       },
@@ -1158,12 +1158,12 @@
         },
         "compile": {
           "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "frameworkReferences": [
@@ -1177,12 +1177,12 @@
         },
         "compile": {
           "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -1190,12 +1190,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "frameworkReferences": [
@@ -4069,23 +4069,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\KINO\\.nuget\\packages\\": {},
+    "C:\\Users\\enelry\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KINO\\Desktop\\Ali\\ApiProje\\Presentation\\ParkCinema.API\\Boundmax.API.csproj",
+      "projectUniqueName": "C:\\Users\\enelry\\Desktop\\Boundmax\\ApiProje\\Presentation\\ParkCinema.API\\Boundmax.API.csproj",
       "projectName": "Boundmax.API",
-      "projectPath": "C:\\Users\\KINO\\Desktop\\Ali\\ApiProje\\Presentation\\ParkCinema.API\\Boundmax.API.csproj",
-      "packagesPath": "C:\\Users\\KINO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KINO\\Desktop\\Ali\\ApiProje\\Presentation\\ParkCinema.API\\obj\\",
+      "projectPath": "C:\\Users\\enelry\\Desktop\\Boundmax\\ApiProje\\Presentation\\ParkCinema.API\\Boundmax.API.csproj",
+      "packagesPath": "C:\\Users\\enelry\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\enelry\\Desktop\\Boundmax\\ApiProje\\Presentation\\ParkCinema.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\KINO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\enelry\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4100,8 +4100,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\KINO\\Desktop\\Ali\\ApiProje\\Infrastructure\\ParkCinema.Persistance\\Boundmax.Persistance.csproj": {
-              "projectPath": "C:\\Users\\KINO\\Desktop\\Ali\\ApiProje\\Infrastructure\\ParkCinema.Persistance\\Boundmax.Persistance.csproj"
+            "C:\\Users\\enelry\\Desktop\\Boundmax\\ApiProje\\Infrastructure\\ParkCinema.Persistance\\Boundmax.Persistance.csproj": {
+              "projectPath": "C:\\Users\\enelry\\Desktop\\Boundmax\\ApiProje\\Infrastructure\\ParkCinema.Persistance\\Boundmax.Persistance.csproj"
             }
           }
         }

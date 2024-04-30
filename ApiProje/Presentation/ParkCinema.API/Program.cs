@@ -15,6 +15,18 @@ builder.Services.AddInfrastructureServices();
 builder.Services.AddScoped<AppDbContextInitializer>();
 
 
+builder.Services.AddCors();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowOrigin", builder =>
+    {
+        builder.AllowAnyOrigin()
+               .AllowAnyHeader()
+               .AllowAnyMethod();
+    });
+});
+
+
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -58,7 +70,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseCors();
+app.UseCors(cors => cors
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+            .SetIsOriginAllowed(x => true)
+            .AllowCredentials());
 app.UseHttpsRedirection();
 //app.UseCustomExceptionhandler(); //Hellelik bagli tut cunki errorlarin sebini gomelisen!
 app.UseAuthentication();

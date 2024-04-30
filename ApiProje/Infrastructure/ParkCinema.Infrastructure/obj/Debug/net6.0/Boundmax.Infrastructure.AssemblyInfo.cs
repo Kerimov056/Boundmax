@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Boundmax.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eab197f73297678c95e43adbb8871c15cbda121b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88e1197c888dc1d4ef9bd19e84eb214e35a49dbd")]
 [assembly: System.Reflection.AssemblyProductAttribute("Boundmax.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Boundmax.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

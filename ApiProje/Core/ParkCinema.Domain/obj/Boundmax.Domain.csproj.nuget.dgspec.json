@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KINO\\Desktop\\Ali\\ApiProje\\Core\\ParkCinema.Domain\\Boundmax.Domain.csproj": {}
+    "C:\\Users\\enelry\\Desktop\\Boundmax\\ApiProje\\Core\\ParkCinema.Domain\\Boundmax.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KINO\\Desktop\\Ali\\ApiProje\\Core\\ParkCinema.Domain\\Boundmax.Domain.csproj": {
+    "C:\\Users\\enelry\\Desktop\\Boundmax\\ApiProje\\Core\\ParkCinema.Domain\\Boundmax.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KINO\\Desktop\\Ali\\ApiProje\\Core\\ParkCinema.Domain\\Boundmax.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\enelry\\Desktop\\Boundmax\\ApiProje\\Core\\ParkCinema.Domain\\Boundmax.Domain.csproj",
         "projectName": "Boundmax.Domain",
-        "projectPath": "C:\\Users\\KINO\\Desktop\\Ali\\ApiProje\\Core\\ParkCinema.Domain\\Boundmax.Domain.csproj",
-        "packagesPath": "C:\\Users\\KINO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KINO\\Desktop\\Ali\\ApiProje\\Core\\ParkCinema.Domain\\obj\\",
+        "projectPath": "C:\\Users\\enelry\\Desktop\\Boundmax\\ApiProje\\Core\\ParkCinema.Domain\\Boundmax.Domain.csproj",
+        "packagesPath": "C:\\Users\\enelry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\enelry\\Desktop\\Boundmax\\ApiProje\\Core\\ParkCinema.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\KINO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\enelry\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -68,6 +68,12 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
