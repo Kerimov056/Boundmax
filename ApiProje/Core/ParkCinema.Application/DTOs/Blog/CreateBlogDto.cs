@@ -14,5 +14,5 @@ public class CreateBlogDto
     public string Text { get; set; }
     public ICollection<CreateAuthorDto>? CreateAuthorDtos { get; set; }
     public ICollection<CreateReferenceDto>? CreateReferenceDtos { get; set; }
-    public ICollection<CreateBlogDescriptionDto>? CreateBlogDescriptionDtos { get; set; }
+    //public ICollection<CreateBlogDescriptionDto>? CreateBlogDescriptionDtos { get; set; }
 }

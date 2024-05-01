@@ -5,6 +5,7 @@ namespace Boundmax.Domain.Entities;
 public class Authors:BaseEntity
 {
     public string Fullname { get; set; }
+    public string? ProfilImageUrl { get; set; }
     public string? Position { get; set; }
     public string? ContactLink { get; set; }
 

@@ -46,9 +46,9 @@ public class BlogService : IBlogService
         toReferencesMapper.ForEach(x => x.BlogId = newBlog.Id);
         await _appDbcontext.References.AddRangeAsync(toReferencesMapper);
 
-        var toBlogDescriptionsMapper = _mapper.Map<List<BlogDescriptions>>(createBlogDto.CreateBlogDescriptionDtos);
-        toBlogDescriptionsMapper.ForEach(x => x.BlogId = newBlog.Id);
-        await _appDbcontext.BlogDescriptions.AddRangeAsync(toBlogDescriptionsMapper);
+        //var toBlogDescriptionsMapper = _mapper.Map<List<BlogDescriptions>>(createBlogDto.CreateBlogDescriptionDtos);
+        //toBlogDescriptionsMapper.ForEach(x => x.BlogId = newBlog.Id);
+        //await _appDbcontext.BlogDescriptions.AddRangeAsync(toBlogDescriptionsMapper);
 
         await _blogWriteRepository.SaveChangeAsync();
     }
@@ -74,7 +74,7 @@ public class BlogService : IBlogService
         var blog = await _blogReadRepository.GetAll()
                                             .Include(x=>x.Authors)
                                             .Include(x=>x.References)
-                                            .Include(x=>x.BlogDescriptions)
+                                            //.Include(x=>x.BlogDescriptions)
                                             .FirstOrDefaultAsync(x=>x.Id==Id);
         if (blog is null) throw new NotFoundException("Not Found Blog");
 

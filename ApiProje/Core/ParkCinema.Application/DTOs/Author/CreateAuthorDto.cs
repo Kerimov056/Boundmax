@@ -3,6 +3,7 @@
 public class CreateAuthorDto
 {
     public string Fullname { get; set; }
+    public string? ProfilImageUrl { get; set; }
     public string? Position { get; set; }
     public string? ContactLink { get; set; }
 }

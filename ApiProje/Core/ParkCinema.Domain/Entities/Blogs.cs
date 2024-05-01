@@ -12,5 +12,5 @@ public class Blogs : BaseEntity
     //Relations
     public ICollection<Authors>? Authors { get; set; }
     public ICollection<References>? References { get; set; }
-    public ICollection<BlogDescriptions>? BlogDescriptions { get; set; }
+    //public ICollection<BlogDescriptions>? BlogDescriptions { get; set; }
 }

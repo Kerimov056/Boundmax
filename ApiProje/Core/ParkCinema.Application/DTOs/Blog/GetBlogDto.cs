@@ -13,5 +13,5 @@ public class GetBlogDto
     public string Text { get; set; }
     public ICollection<GetAuthorDto>? GetAuthorDtos { get; set; }
     public ICollection<GetReferenceDto>? GetReferenceDtos { get; set; }
-    public ICollection<GetBlogDescriptionDto>? GetBlogDescriptionDtos { get; set; }
+    //public ICollection<GetBlogDescriptionDto>? GetBlogDescriptionDtos { get; set; }
 }

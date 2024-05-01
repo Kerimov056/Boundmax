@@ -12,7 +12,7 @@ public class BlogProfile : Profile
         CreateMap<Blogs, GetBlogDto>()
              .ForMember(dest => dest.GetAuthorDtos, opt => opt.MapFrom(src => src.Authors))
              .ForMember(dest => dest.GetReferenceDtos, opt => opt.MapFrom(src => src.References))
-             .ForMember(dest => dest.GetBlogDescriptionDtos, opt => opt.MapFrom(src => src.BlogDescriptions))
+             //.ForMember(dest => dest.GetBlogDescriptionDtos, opt => opt.MapFrom(src => src.BlogDescriptions))
                 .ReverseMap();
 
     }
