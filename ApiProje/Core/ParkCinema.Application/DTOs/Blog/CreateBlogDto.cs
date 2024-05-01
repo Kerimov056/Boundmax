@@ -11,6 +11,7 @@ public class CreateBlogDto
     public string Title { get; set; }
     public string? SourceLanguage { get; set; }
     public string MainImageUrl { get; set; }
+    public string? BlogAuthorName { get; set; }
     public string Text { get; set; }
     public ICollection<CreateAuthorDto>? CreateAuthorDtos { get; set; }
     public ICollection<CreateReferenceDto>? CreateReferenceDtos { get; set; }

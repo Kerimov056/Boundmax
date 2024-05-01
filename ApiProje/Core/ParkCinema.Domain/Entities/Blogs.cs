@@ -7,6 +7,7 @@ public class Blogs : BaseEntity
     public string Title { get; set; }
     public string? SourceLanguage { get; set; }
     public string MainImageUrl { get; set; }
+    public string? BlogAuthorName { get; set; }
     public string Text { get; set; }
 
     //Relations
