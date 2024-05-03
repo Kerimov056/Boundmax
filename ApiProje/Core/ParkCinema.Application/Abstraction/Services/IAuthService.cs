@@ -1,4 +1,5 @@
-﻿using ParkCinema.Application.DTOs.Auth;
+﻿using Boundmax.Application.DTOs.Auth;
+using ParkCinema.Application.DTOs.Auth;
 using ParkCinema.Domain.Helpers;
 
 namespace ParkCinema.Application.Abstraction.Services;
@@ -9,6 +10,7 @@ public interface IAuthService
     Task<TokenResponseDTO> Login(LoginDTO loginDTO);
     Task<TokenResponseDTO> LoginAdmin(LoginDTO loginDTO);
     Task<TokenResponseDTO> ValidRefleshToken(string refreshToken);
+    Task<SignUpResponse> Create(CreateUserDto registerDTO);
 
     //Yazilacaqlar:
     //Task PasswordResetAsnyc(string email);

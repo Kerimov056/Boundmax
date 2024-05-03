@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "ParkCinema.API.Controllers.AuthController",
+    "Method": "CreateUser",
+    "RelativePath": "api/Auth/CreateUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserDto",
+        "Type": "Boundmax.Application.DTOs.Auth.CreateUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParkCinema.API.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/Login",
     "HttpMethod": "POST",

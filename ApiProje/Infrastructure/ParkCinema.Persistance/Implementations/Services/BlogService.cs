@@ -41,7 +41,7 @@ public class BlogService : IBlogService
         var toAuthorMapper = _mapper.Map<List<Authors>>(createBlogDto.CreateAuthorDtos);
         toAuthorMapper.ForEach(x => x.BlogId = newBlog.Id);
         await _appDbcontext.Authors.AddRangeAsync(toAuthorMapper);
-    
+
         var toReferencesMapper = _mapper.Map<List<References>>(createBlogDto.CreateReferenceDtos);
         toReferencesMapper.ForEach(x => x.BlogId = newBlog.Id);
         await _appDbcontext.References.AddRangeAsync(toReferencesMapper);
@@ -62,20 +62,31 @@ public class BlogService : IBlogService
         await _blogWriteRepository.SaveChangeAsync();
     }
 
-    public async Task<List<GetBlogDto>> GetAllAsync()
+    public async Task<List<MainGetBlogDto>> GetAllAsync()
     {
         var allBlogs = await _blogReadRepository.GetAll()
-                            .OrderByDescending(x=>x.CreatedDate).ToListAsync();
-        return _mapper.Map<List<GetBlogDto>>(allBlogs);
+                            .OrderByDescending(x => x.CreatedDate)
+                            .Select(x => new MainGetBlogDto
+                            {
+                                Id = x.Id,
+                                Title = x.Title,
+                                //MainImageUrl = x.MainImageUrl,
+                                SourceLanguage = x.SourceLanguage,
+                                BlogAuthorName = x.BlogAuthorName,
+                                CreatedDate = x.CreatedDate
+                            }).ToListAsync();
+
+        return allBlogs;
     }
+
 
     public async Task<GetBlogDto> GetByIdAsync(Guid Id)
     {
         var blog = await _blogReadRepository.GetAll()
-                                            .Include(x=>x.Authors)
-                                            .Include(x=>x.References)
+                                            .Include(x => x.Authors)
+                                            .Include(x => x.References)
                                             //.Include(x=>x.BlogDescriptions)
-                                            .FirstOrDefaultAsync(x=>x.Id==Id);
+                                            .FirstOrDefaultAsync(x => x.Id == Id);
         if (blog is null) throw new NotFoundException("Not Found Blog");
 
         return _mapper.Map<GetBlogDto>(blog);
@@ -94,7 +105,7 @@ public class BlogService : IBlogService
                                                          x.Authors.Any(a => a.Fullname.Contains(searchText)))
                                              .ToListAsync();
 
-        return _mapper.Map<List<GetBlogDto>>(blogs);    
+        return _mapper.Map<List<GetBlogDto>>(blogs);
     }
 
 }

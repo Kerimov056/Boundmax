@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Boundmax.Application.DTOs.Auth;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using ParkCinema.Application.Abstraction.Services;
@@ -34,6 +35,57 @@ public class AuthService : IAuthService
         _context = context;
         _configuration = configuration;
         _tokenHandler = tokenHandler;
+    }
+
+    public async Task<SignUpResponse> Create(CreateUserDto registerDTO)
+    {
+        // Check if the current user has the required role
+        var currentUserRole = await GetUserRole(registerDTO.SuperAdminId);
+        if (currentUserRole != Role.SuperAdmin.ToString())
+        {
+            throw new UnauthorizedAccessException("Only SuperAdmin and Admin can create users.");
+        }
+
+        if (!Enum.TryParse(registerDTO.UserRole, out Role role) || !Enum.IsDefined(typeof(Role), role))
+        {
+            throw new ArgumentException("Invalid user role specified.");
+        }
+        AppUser appUser = new AppUser()
+        {
+            Fullname = registerDTO.Fullname,
+            UserName = registerDTO.Username,
+            Email = registerDTO.Email,
+            isActive = false,
+        };
+        IdentityResult identityResult = await _userManager.CreateAsync(appUser, registerDTO.Password);
+        if (!identityResult.Succeeded)
+        {
+            StringBuilder errorMessage = new();
+            foreach (var error in identityResult.Errors)
+            {
+                errorMessage.AppendLine(error.Description);
+            }
+            throw new RegistrationException(errorMessage.ToString());
+        }
+
+        // Assign the role to the created user
+        var result = await _userManager.AddToRoleAsync(appUser, role.ToString());
+        if (!result.Succeeded)
+        {
+            return new SignUpResponse
+            {
+                StatusMessage = ExceptionResponseMessages.UserFailedMessage,
+                Errors = result.Errors.Select(e => e.Description).ToList()
+            };
+        }
+
+        // Return success response
+        return new SignUpResponse
+        {
+            Errors = null,
+            StatusMessage = ExceptionResponseMessages.UserSuccesMessage,
+            UserEmail = appUser.Email
+        };
     }
 
     public async Task<TokenResponseDTO> Login(LoginDTO loginDTO)
@@ -129,5 +181,16 @@ public class AuthService : IAuthService
         ByUser.RefreshTokenExpration = tokenResponse.refreshTokenExpration;
         await _userManager.UpdateAsync(ByUser);
         return tokenResponse;
+    }
+
+    private async Task<string> GetUserRole(Guid userId)
+    {
+        var user = await _userManager.FindByIdAsync(userId.ToString());
+        if (user == null)
+        {
+            throw new NotFoundException($"User with ID {userId} not found.");
+        }
+        var roles = await _userManager.GetRolesAsync(user);
+        return roles.FirstOrDefault();
     }
 }

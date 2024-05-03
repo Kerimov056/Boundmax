@@ -7,6 +7,7 @@ namespace Boundmax.Application.DTOs.Blog;
 public class GetBlogDto
 {
     public Guid Id { get; set; }
+    public DateTime CreatedDate { get; set; }
     public string Title { get; set; }
     public string? SourceLanguage { get; set; }
     public string MainImageUrl { get; set; }

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Boundmax.Application.DTOs.Auth;
+using Microsoft.AspNetCore.Mvc;
 using ParkCinema.Application.Abstraction.Services;
 using ParkCinema.Application.DTOs.Auth;
 using ParkCinema.Domain.Helpers;
@@ -53,6 +54,14 @@ public class AuthController : ControllerBase
 
         }
         return Ok(response);
+    }
+
+    [HttpPost("[action]")]
+    public async Task<IActionResult> CreateUser([FromBody] CreateUserDto UserDto)
+    {
+        ArgumentNullException.ThrowIfNull(UserDto, ExceptionResponseMessages.ParametrNotFoundMessage);
+        var Response = await _authService.Create(UserDto);
+        return Ok(Response);
     }
 
     [HttpPost("[action]")]
