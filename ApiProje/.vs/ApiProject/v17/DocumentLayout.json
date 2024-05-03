@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{4AF9F442-B723-4F9D-92C6-6B843FFB90EC}|Presentation\\ParkCinema.API\\Boundmax.API.csproj|solutionrelative:presentation\\parkcinema.api\\controllers\\blogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4061B7E8-60BA-4522-95BA-4DCDD66FBF18}|Core\\ParkCinema.Application\\Boundmax.Application.csproj|c:\\users\\kino\\desktop\\boundmax-api\\boundmax\\apiproje\\core\\parkcinema.application\\abstraction\\services\\iblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4061B7E8-60BA-4522-95BA-4DCDD66FBF18}|Core\\ParkCinema.Application\\Boundmax.Application.csproj|solutionrelative:core\\parkcinema.application\\abstraction\\services\\iblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C758B57D-650A-4901-B7D3-E4169255D067}|Infrastructure\\ParkCinema.Persistance\\Boundmax.Persistance.csproj|c:\\users\\kino\\desktop\\boundmax-api\\boundmax\\apiproje\\infrastructure\\parkcinema.persistance\\implementations\\services\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C758B57D-650A-4901-B7D3-E4169255D067}|Infrastructure\\ParkCinema.Persistance\\Boundmax.Persistance.csproj|solutionrelative:infrastructure\\parkcinema.persistance\\implementations\\services\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4061B7E8-60BA-4522-95BA-4DCDD66FBF18}|Core\\ParkCinema.Application\\Boundmax.Application.csproj|c:\\users\\kino\\desktop\\boundmax-api\\boundmax\\apiproje\\core\\parkcinema.application\\abstraction\\services\\iblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4061B7E8-60BA-4522-95BA-4DCDD66FBF18}|Core\\ParkCinema.Application\\Boundmax.Application.csproj|solutionrelative:core\\parkcinema.application\\abstraction\\services\\iblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4AF9F442-B723-4F9D-92C6-6B843FFB90EC}|Presentation\\ParkCinema.API\\Boundmax.API.csproj|c:\\users\\kino\\desktop\\boundmax-api\\boundmax\\apiproje\\presentation\\parkcinema.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,13 +34,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IBlogService.cs",
               "DocumentMoniker": "C:\\Users\\KINO\\Desktop\\Boundmax-Api\\Boundmax\\ApiProje\\Core\\ParkCinema.Application\\Abstraction\\Services\\IBlogService.cs",
               "RelativeDocumentMoniker": "Core\\ParkCinema.Application\\Abstraction\\Services\\IBlogService.cs",
               "ToolTip": "C:\\Users\\KINO\\Desktop\\Boundmax-Api\\Boundmax\\ApiProje\\Core\\ParkCinema.Application\\Abstraction\\Services\\IBlogService.cs",
               "RelativeToolTip": "Core\\ParkCinema.Application\\Abstraction\\Services\\IBlogService.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAkwAoAAAAxAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T23:00:44.041Z",
               "EditorCaption": ""
@@ -59,13 +59,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "BlogService.cs",
               "DocumentMoniker": "C:\\Users\\KINO\\Desktop\\Boundmax-Api\\Boundmax\\ApiProje\\Infrastructure\\ParkCinema.Persistance\\Implementations\\Services\\BlogService.cs",
               "RelativeDocumentMoniker": "Infrastructure\\ParkCinema.Persistance\\Implementations\\Services\\BlogService.cs",
               "ToolTip": "C:\\Users\\KINO\\Desktop\\Boundmax-Api\\Boundmax\\ApiProje\\Infrastructure\\ParkCinema.Persistance\\Implementations\\Services\\BlogService.cs",
               "RelativeToolTip": "Infrastructure\\ParkCinema.Persistance\\Implementations\\Services\\BlogService.cs",
-              "ViewState": "AQIAAF4AAAAAzczMzMwYwGEAAAA+AAAA",
+              "ViewState": "AQIAAGAAAADAmZmZmZktwGEAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T22:38:31.482Z",
               "EditorCaption": ""
@@ -78,7 +78,7 @@
               "RelativeDocumentMoniker": "Presentation\\ParkCinema.API\\Controllers\\BlogsController.cs",
               "ToolTip": "C:\\Users\\KINO\\Desktop\\Boundmax-Api\\Boundmax\\ApiProje\\Presentation\\ParkCinema.API\\Controllers\\BlogsController.cs",
               "RelativeToolTip": "Presentation\\ParkCinema.API\\Controllers\\BlogsController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAADgvyMAAAAFAAAA",
+              "ViewState": "AQIAAA4AAACAmZmZmZkFwBQAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T22:37:31.049Z",
               "EditorCaption": ""

@@ -95,6 +95,24 @@ public class BlogService : IBlogService
         return _mapper.Map<GetBlogDto>(blog);
     }
 
+    public async Task<List<MainGetBlogDto>> LastThreeBlogs()
+    {
+        var allBlogs = await _blogReadRepository.GetAll()
+                            .OrderByDescending(x => x.CreatedDate)
+                            .Take(3)
+                            .Select(x => new MainGetBlogDto
+                            {
+                                Id = x.Id,
+                                Title = x.Title,
+                                //MainImageUrl = x.MainImageUrl,
+                                SourceLanguage = x.SourceLanguage,
+                                BlogAuthorName = x.BlogAuthorName,
+                                CreatedDate = x.CreatedDate
+                            }).ToListAsync();
+
+        return allBlogs;
+    }
+
     public async Task<List<MainGetBlogDto>> SearchBlog(string? searchText)
     {
         if (searchText==null || searchText == "")

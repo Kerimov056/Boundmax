@@ -9,4 +9,5 @@ public interface IBlogService
     Task<List<MainGetBlogDto>> GetAllAsync();
     Task DeleteAsync(Guid Id, string AppUserId);
     Task<List<MainGetBlogDto>> SearchBlog(string? searchText);
+    Task<List<MainGetBlogDto>> LastThreeBlogs(); 
 }

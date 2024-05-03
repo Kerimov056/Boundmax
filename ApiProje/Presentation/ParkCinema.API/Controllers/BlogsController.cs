@@ -22,12 +22,19 @@ public class BlogsController : ControllerBase
     }
 
     [HttpGet("[action]")]
+    public async Task<IActionResult> ThreeLastBlogs()
+    {
+        var blogs = await _blogService.LastThreeBlogs();
+        return Ok(blogs);
+    }
+
+    [HttpGet("[action]")]
     public async Task<IActionResult> GetById(Guid Id)
     {
         var byBlog = await _blogService.GetByIdAsync(Id);
         return Ok(byBlog);
     }
-    
+
     [HttpGet("[action]")]
     public async Task<IActionResult> GetSearchBlogs(string? searchText)
     {

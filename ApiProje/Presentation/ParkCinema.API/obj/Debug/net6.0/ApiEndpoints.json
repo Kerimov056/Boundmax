@@ -141,5 +141,15 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Boundmax.API.Controllers.BlogsController",
+    "Method": "ThreeLastBlogs",
+    "RelativePath": "api/Blogs/ThreeLastBlogs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]
