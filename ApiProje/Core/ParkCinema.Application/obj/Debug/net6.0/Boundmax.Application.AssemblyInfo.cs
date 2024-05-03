@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Boundmax.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b56fbf5b7e553552637a95e48b9e1a452a7ab2ce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6250b956957695d75be6d7a9704c9bc2ca755e29")]
 [assembly: System.Reflection.AssemblyProductAttribute("Boundmax.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Boundmax.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

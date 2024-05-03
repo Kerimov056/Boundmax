@@ -8,5 +8,5 @@ public interface IBlogService
     Task<GetBlogDto> GetByIdAsync(Guid Id);
     Task<List<MainGetBlogDto>> GetAllAsync();
     Task DeleteAsync(Guid Id, string AppUserId);
-    Task<List<GetBlogDto>> SearchBlog(string searchText);
+    Task<List<MainGetBlogDto>> SearchBlog(string? searchText);
 }

@@ -55,6 +55,9 @@ public class BlogService : IBlogService
 
     public async Task DeleteAsync(Guid Id, string AppUserId)
     {
+        if (await _appDbcontext.Users.FirstOrDefaultAsync(x => x.Id == AppUserId) is null)
+            throw new PermissionException("Not Access");
+
         var blog = await _blogReadRepository.GetByIdAsync(Id);
         if (blog is null) throw new NotFoundException("Not Found Blog");
 
@@ -92,20 +95,30 @@ public class BlogService : IBlogService
         return _mapper.Map<GetBlogDto>(blog);
     }
 
-    public async Task<List<GetBlogDto>> SearchBlog(string searchText)
+    public async Task<List<MainGetBlogDto>> SearchBlog(string? searchText)
     {
-        if (string.IsNullOrEmpty(searchText))
-            return null;
+        if (searchText==null || searchText == "")
+            return await GetAllAsync();
 
         var blogs = await _blogReadRepository.GetAll()
                                              .Include(x => x.Authors)
                                              .Where(x => x.Title.Contains(searchText) ||
+                                                         x.BlogAuthorName.Contains(searchText) ||
                                                          x.SourceLanguage.Contains(searchText) ||
                                                          x.Text.Contains(searchText) ||
                                                          x.Authors.Any(a => a.Fullname.Contains(searchText)))
+                                             .Select(x => new MainGetBlogDto
+                                             {
+                                                 Id = x.Id,
+                                                 Title = x.Title,
+                                                 //MainImageUrl = x.MainImageUrl,
+                                                 SourceLanguage = x.SourceLanguage,
+                                                 BlogAuthorName = x.BlogAuthorName,
+                                                 CreatedDate = x.CreatedDate
+                                             })
                                              .ToListAsync();
 
-        return _mapper.Map<List<GetBlogDto>>(blogs);
+        return blogs;
     }
 
 }

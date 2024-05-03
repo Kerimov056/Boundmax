@@ -29,7 +29,7 @@ public class BlogsController : ControllerBase
     }
     
     [HttpGet("[action]")]
-    public async Task<IActionResult> GetSearchBlogs(string searchText)
+    public async Task<IActionResult> GetSearchBlogs(string? searchText)
     {
         var byBlogs = await _blogService.SearchBlog(searchText);
         return Ok(byBlogs);
