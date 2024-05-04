@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using ParkCinema.Persistance.Context;
 using ParkCinema.Persistance.Exceptions;
+using System.Drawing.Printing;
 
 namespace Boundmax.Persistance.Implementations.Services;
 
@@ -65,10 +66,12 @@ public class BlogService : IBlogService
         await _blogWriteRepository.SaveChangeAsync();
     }
 
-    public async Task<List<MainGetBlogDto>> GetAllAsync()
+    public async Task<List<MainGetBlogDto>> GetAllAsync(int pageNumber, int pageSize)
     {
         var allBlogs = await _blogReadRepository.GetAll()
                             .OrderByDescending(x => x.CreatedDate)
+                            .Skip((pageNumber - 1) * pageSize)
+                            .Take(pageSize)
                             .Select(x => new MainGetBlogDto
                             {
                                 Id = x.Id,
@@ -95,6 +98,12 @@ public class BlogService : IBlogService
         return _mapper.Map<GetBlogDto>(blog);
     }
 
+    public async Task<int> GetTotalPages(int pageSize)
+    {
+        var totalRecords = await _blogReadRepository.GetAll().CountAsync();
+        return (int)Math.Ceiling(totalRecords / (double)pageSize);
+    }
+
     public async Task<List<MainGetBlogDto>> LastThreeBlogs()
     {
         var allBlogs = await _blogReadRepository.GetAll()
@@ -109,14 +118,13 @@ public class BlogService : IBlogService
                                 BlogAuthorName = x.BlogAuthorName,
                                 CreatedDate = x.CreatedDate
                             }).ToListAsync();
-
         return allBlogs;
     }
 
-    public async Task<List<MainGetBlogDto>> SearchBlog(string? searchText)
+    public async Task<List<MainGetBlogDto>> SearchBlog(string? searchText, int pageNumber, int pageSize)
     {
-        if (searchText==null || searchText == "")
-            return await GetAllAsync();
+        if (searchText == null || searchText == "")
+            return await GetAllAsync(pageNumber, pageSize);
 
         var blogs = await _blogReadRepository.GetAll()
                                              .Include(x => x.Authors)
@@ -125,6 +133,8 @@ public class BlogService : IBlogService
                                                          x.SourceLanguage.Contains(searchText) ||
                                                          x.Text.Contains(searchText) ||
                                                          x.Authors.Any(a => a.Fullname.Contains(searchText)))
+                                             .Skip((pageNumber - 1) * pageSize)
+                                             .Take(pageSize)
                                              .Select(x => new MainGetBlogDto
                                              {
                                                  Id = x.Id,

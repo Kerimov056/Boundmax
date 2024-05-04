@@ -14,11 +14,16 @@ public class BlogsController : ControllerBase
     public BlogsController(IBlogService blogService)
      => _blogService = blogService;
 
-    [HttpGet]
-    public async Task<IActionResult> GetAll()
+    //[HttpGet]
+    //public async Task<IActionResult> GetAll()
+    //{
+    //    var blogs = await _blogService.GetAllAsync();
+    //    return Ok(blogs);
+    //}
+    [HttpGet("[action]")]
+    public async Task<IActionResult> TotalBlogPage(int pageSize = 12)
     {
-        var blogs = await _blogService.GetAllAsync();
-        return Ok(blogs);
+        return Ok(await _blogService.GetTotalPages(pageSize));
     }
 
     [HttpGet("[action]")]
@@ -36,9 +41,9 @@ public class BlogsController : ControllerBase
     }
 
     [HttpGet("[action]")]
-    public async Task<IActionResult> GetSearchBlogs(string? searchText)
+    public async Task<IActionResult> GetSearchBlogs(string? searchText, int pageNumber = 1, int pageSize = 12)
     {
-        var byBlogs = await _blogService.SearchBlog(searchText);
+        var byBlogs = await _blogService.SearchBlog(searchText, pageNumber, pageSize);
         return Ok(byBlogs);
     }
 

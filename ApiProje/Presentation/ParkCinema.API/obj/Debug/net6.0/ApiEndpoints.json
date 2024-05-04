@@ -65,16 +65,6 @@
   },
   {
     "ContainingType": "Boundmax.API.Controllers.BlogsController",
-    "Method": "GetAll",
-    "RelativePath": "api/Blogs",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Boundmax.API.Controllers.BlogsController",
     "Method": "CreateBlog",
     "RelativePath": "api/Blogs",
     "HttpMethod": "POST",
@@ -117,6 +107,16 @@
         "Name": "searchText",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -150,6 +150,22 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Boundmax.API.Controllers.BlogsController",
+    "Method": "TotalBlogPage",
+    "RelativePath": "api/Blogs/TotalBlogPage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   }
 ]
