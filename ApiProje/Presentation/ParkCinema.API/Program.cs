@@ -1,3 +1,5 @@
+using Google.Apis.Auth.OAuth2;
+using Google.Cloud.Storage.V1;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using ParkCinema.Infrastructure;
@@ -13,6 +15,14 @@ builder.Services.AddControllers();
 builder.Services.AddPersistenceServices();
 builder.Services.AddInfrastructureServices();
 builder.Services.AddScoped<AppDbContextInitializer>();
+
+
+// Configure Google Storage Client
+builder.Services.AddSingleton(sp => {
+    string credentialsPath = builder.Configuration["GoogleCloud:ApiKey"];
+    var credential = GoogleCredential.FromFile(credentialsPath);
+    return StorageClient.Create(credential);
+});
 
 
 builder.Services.AddCors();

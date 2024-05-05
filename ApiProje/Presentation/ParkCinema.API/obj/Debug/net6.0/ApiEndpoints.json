@@ -81,6 +81,22 @@
   },
   {
     "ContainingType": "Boundmax.API.Controllers.BlogsController",
+    "Method": "CreateMainImageUrl",
+    "RelativePath": "api/Blogs/CreateMainImageUrl",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Boundmax.API.Controllers.BlogsController",
     "Method": "GetById",
     "RelativePath": "api/Blogs/GetById",
     "HttpMethod": "GET",

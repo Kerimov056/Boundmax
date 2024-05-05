@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KINO\\Desktop\\Boundmax-Api\\Boundmax\\ApiProje\\Infrastructure\\ParkCinema.Infrastructure\\Boundmax.Infrastructure.csproj": {}
+    "C:\\Users\\R\\Desktop\\Boundmax\\ApiProje\\Infrastructure\\ParkCinema.Infrastructure\\Boundmax.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KINO\\Desktop\\Boundmax-Api\\Boundmax\\ApiProje\\Core\\ParkCinema.Application\\Boundmax.Application.csproj": {
+    "C:\\Users\\R\\Desktop\\Boundmax\\ApiProje\\Core\\ParkCinema.Application\\Boundmax.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KINO\\Desktop\\Boundmax-Api\\Boundmax\\ApiProje\\Core\\ParkCinema.Application\\Boundmax.Application.csproj",
+        "projectUniqueName": "C:\\Users\\R\\Desktop\\Boundmax\\ApiProje\\Core\\ParkCinema.Application\\Boundmax.Application.csproj",
         "projectName": "Boundmax.Application",
-        "projectPath": "C:\\Users\\KINO\\Desktop\\Boundmax-Api\\Boundmax\\ApiProje\\Core\\ParkCinema.Application\\Boundmax.Application.csproj",
-        "packagesPath": "C:\\Users\\KINO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KINO\\Desktop\\Boundmax-Api\\Boundmax\\ApiProje\\Core\\ParkCinema.Application\\obj\\",
+        "projectPath": "C:\\Users\\R\\Desktop\\Boundmax\\ApiProje\\Core\\ParkCinema.Application\\Boundmax.Application.csproj",
+        "packagesPath": "C:\\Users\\R\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\R\\Desktop\\Boundmax\\ApiProje\\Core\\ParkCinema.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\KINO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\R\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\KINO\\Desktop\\Boundmax-Api\\Boundmax\\ApiProje\\Core\\ParkCinema.Domain\\Boundmax.Domain.csproj": {
-                "projectPath": "C:\\Users\\KINO\\Desktop\\Boundmax-Api\\Boundmax\\ApiProje\\Core\\ParkCinema.Domain\\Boundmax.Domain.csproj"
+              "C:\\Users\\R\\Desktop\\Boundmax\\ApiProje\\Core\\ParkCinema.Domain\\Boundmax.Domain.csproj": {
+                "projectPath": "C:\\Users\\R\\Desktop\\Boundmax\\ApiProje\\Core\\ParkCinema.Domain\\Boundmax.Domain.csproj"
               }
             }
           }
@@ -104,20 +104,20 @@
         }
       }
     },
-    "C:\\Users\\KINO\\Desktop\\Boundmax-Api\\Boundmax\\ApiProje\\Core\\ParkCinema.Domain\\Boundmax.Domain.csproj": {
+    "C:\\Users\\R\\Desktop\\Boundmax\\ApiProje\\Core\\ParkCinema.Domain\\Boundmax.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KINO\\Desktop\\Boundmax-Api\\Boundmax\\ApiProje\\Core\\ParkCinema.Domain\\Boundmax.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\R\\Desktop\\Boundmax\\ApiProje\\Core\\ParkCinema.Domain\\Boundmax.Domain.csproj",
         "projectName": "Boundmax.Domain",
-        "projectPath": "C:\\Users\\KINO\\Desktop\\Boundmax-Api\\Boundmax\\ApiProje\\Core\\ParkCinema.Domain\\Boundmax.Domain.csproj",
-        "packagesPath": "C:\\Users\\KINO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KINO\\Desktop\\Boundmax-Api\\Boundmax\\ApiProje\\Core\\ParkCinema.Domain\\obj\\",
+        "projectPath": "C:\\Users\\R\\Desktop\\Boundmax\\ApiProje\\Core\\ParkCinema.Domain\\Boundmax.Domain.csproj",
+        "packagesPath": "C:\\Users\\R\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\R\\Desktop\\Boundmax\\ApiProje\\Core\\ParkCinema.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\KINO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\R\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -200,20 +200,20 @@
         }
       }
     },
-    "C:\\Users\\KINO\\Desktop\\Boundmax-Api\\Boundmax\\ApiProje\\Infrastructure\\ParkCinema.Infrastructure\\Boundmax.Infrastructure.csproj": {
+    "C:\\Users\\R\\Desktop\\Boundmax\\ApiProje\\Infrastructure\\ParkCinema.Infrastructure\\Boundmax.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KINO\\Desktop\\Boundmax-Api\\Boundmax\\ApiProje\\Infrastructure\\ParkCinema.Infrastructure\\Boundmax.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\R\\Desktop\\Boundmax\\ApiProje\\Infrastructure\\ParkCinema.Infrastructure\\Boundmax.Infrastructure.csproj",
         "projectName": "Boundmax.Infrastructure",
-        "projectPath": "C:\\Users\\KINO\\Desktop\\Boundmax-Api\\Boundmax\\ApiProje\\Infrastructure\\ParkCinema.Infrastructure\\Boundmax.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\KINO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KINO\\Desktop\\Boundmax-Api\\Boundmax\\ApiProje\\Infrastructure\\ParkCinema.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\R\\Desktop\\Boundmax\\ApiProje\\Infrastructure\\ParkCinema.Infrastructure\\Boundmax.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\R\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\R\\Desktop\\Boundmax\\ApiProje\\Infrastructure\\ParkCinema.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\KINO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\R\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -228,8 +228,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\KINO\\Desktop\\Boundmax-Api\\Boundmax\\ApiProje\\Core\\ParkCinema.Application\\Boundmax.Application.csproj": {
-                "projectPath": "C:\\Users\\KINO\\Desktop\\Boundmax-Api\\Boundmax\\ApiProje\\Core\\ParkCinema.Application\\Boundmax.Application.csproj"
+              "C:\\Users\\R\\Desktop\\Boundmax\\ApiProje\\Core\\ParkCinema.Application\\Boundmax.Application.csproj": {
+                "projectPath": "C:\\Users\\R\\Desktop\\Boundmax\\ApiProje\\Core\\ParkCinema.Application\\Boundmax.Application.csproj"
               }
             }
           }

@@ -2,6 +2,7 @@
 using Boundmax.Application.DTOs.BlogDescription;
 using Boundmax.Application.DTOs.Reference;
 using Boundmax.Domain.Entities;
+using Microsoft.AspNetCore.Http;
 
 namespace Boundmax.Application.DTOs.Blog;
 

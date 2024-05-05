@@ -34,8 +34,8 @@ public class BlogService : IBlogService
     {
         if (await _appDbcontext.Users.FirstOrDefaultAsync(x => x.Id == createBlogDto.AdminId) is null)
             throw new PermissionException("Not Access");
+        
         var newBlog = _mapper.Map<Blogs>(createBlogDto);
-
         await _blogWriteRepository.AddAsync(newBlog);
         await _blogWriteRepository.SaveChangeAsync();
 
@@ -76,7 +76,7 @@ public class BlogService : IBlogService
                             {
                                 Id = x.Id,
                                 Title = x.Title,
-                                //MainImageUrl = x.MainImageUrl,
+                                MainImageUrl = x.MainImageUrl,
                                 SourceLanguage = x.SourceLanguage,
                                 BlogAuthorName = x.BlogAuthorName,
                                 CreatedDate = x.CreatedDate
@@ -113,7 +113,7 @@ public class BlogService : IBlogService
                             {
                                 Id = x.Id,
                                 Title = x.Title,
-                                //MainImageUrl = x.MainImageUrl,
+                                MainImageUrl = x.MainImageUrl,
                                 SourceLanguage = x.SourceLanguage,
                                 BlogAuthorName = x.BlogAuthorName,
                                 CreatedDate = x.CreatedDate
@@ -139,7 +139,7 @@ public class BlogService : IBlogService
                                              {
                                                  Id = x.Id,
                                                  Title = x.Title,
-                                                 //MainImageUrl = x.MainImageUrl,
+                                                 MainImageUrl = x.MainImageUrl,
                                                  SourceLanguage = x.SourceLanguage,
                                                  BlogAuthorName = x.BlogAuthorName,
                                                  CreatedDate = x.CreatedDate
