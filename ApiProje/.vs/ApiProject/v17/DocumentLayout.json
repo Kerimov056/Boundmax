@@ -54,8 +54,7 @@
               "RelativeToolTip": "Presentation\\ParkCinema.API\\Program.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T21:31:33.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-04T21:31:33.061Z"
             },
             {
               "$type": "Document",
@@ -67,8 +66,7 @@
               "RelativeToolTip": "Presentation\\ParkCinema.API\\appsettings.json",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-04T21:27:24.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-04T21:27:24.862Z"
             },
             {
               "$type": "Document",
@@ -80,8 +78,7 @@
               "RelativeToolTip": "Core\\ParkCinema.Application\\DTOs\\Blog\\BlogCreateImageFile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T21:07:45.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-04T21:07:45.78Z"
             },
             {
               "$type": "Document",
@@ -93,8 +90,7 @@
               "RelativeToolTip": "Core\\ParkCinema.Application\\DTOs\\Blog\\CreateBlogDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T21:04:49.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-04T21:04:49.547Z"
             },
             {
               "$type": "Document",
@@ -106,8 +102,7 @@
               "RelativeToolTip": "Core\\ParkCinema.Application\\Abstraction\\Services\\IBlogService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T23:00:44.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T23:00:44.041Z"
             },
             {
               "$type": "Document",
@@ -117,7 +112,7 @@
               "RelativeDocumentMoniker": "Infrastructure\\ParkCinema.Persistance\\Implementations\\Services\\BlogService.cs",
               "ToolTip": "C:\\Users\\R\\Desktop\\Boundmax\\ApiProje\\Infrastructure\\ParkCinema.Persistance\\Implementations\\Services\\BlogService.cs",
               "RelativeToolTip": "Infrastructure\\ParkCinema.Persistance\\Implementations\\Services\\BlogService.cs",
-              "ViewState": "AQIAAHoAAAAAAAAAAAAEwIcAAAAsAAAA",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAEwIgAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T22:38:31.482Z",
               "EditorCaption": ""
@@ -130,7 +125,7 @@
               "RelativeDocumentMoniker": "Presentation\\ParkCinema.API\\Controllers\\BlogsController.cs",
               "ToolTip": "C:\\Users\\R\\Desktop\\Boundmax\\ApiProje\\Presentation\\ParkCinema.API\\Controllers\\BlogsController.cs",
               "RelativeToolTip": "Presentation\\ParkCinema.API\\Controllers\\BlogsController.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAqwEUAAAA2AAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAcwDQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T22:37:31.049Z",
               "EditorCaption": ""
@@ -145,8 +140,7 @@
               "RelativeToolTip": "Presentation\\ParkCinema.API\\Controllers\\AuthController.cs",
               "ViewState": "AQIAADYAAAAAAAAAAAAUwDwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T16:17:05.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T16:17:05.409Z"
             }
           ]
         }
