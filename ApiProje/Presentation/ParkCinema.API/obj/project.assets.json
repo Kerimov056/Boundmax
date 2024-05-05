@@ -102,12 +102,12 @@
         },
         "compile": {
           "lib/netstandard2.0/Google.Api.Gax.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Google.Api.Gax.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         }
       },
@@ -120,12 +120,12 @@
         },
         "compile": {
           "lib/netstandard2.0/Google.Api.Gax.Rest.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Google.Api.Gax.Rest.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         }
       },
@@ -136,12 +136,12 @@
         },
         "compile": {
           "lib/net6.0/Google.Apis.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/net6.0/Google.Apis.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         }
       },
@@ -154,12 +154,12 @@
         },
         "compile": {
           "lib/net6.0/Google.Apis.Auth.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/net6.0/Google.Apis.Auth.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         }
       },
@@ -170,12 +170,12 @@
         },
         "compile": {
           "lib/net6.0/Google.Apis.Core.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/net6.0/Google.Apis.Core.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         }
       },
@@ -187,12 +187,12 @@
         },
         "compile": {
           "lib/net6.0/Google.Apis.Storage.v1.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/net6.0/Google.Apis.Storage.v1.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         }
       },
@@ -204,12 +204,12 @@
         },
         "compile": {
           "lib/netstandard2.0/Google.Cloud.Storage.V1.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Google.Cloud.Storage.V1.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         }
       },
@@ -233,12 +233,12 @@
         },
         "compile": {
           "lib/net6.0/MailKit.dll": {
-            "related": ".dll.config;.pdb;.xml"
+            "related": ".dll.config;.xml;.pdb"
           }
         },
         "runtime": {
           "lib/net6.0/MailKit.dll": {
-            "related": ".dll.config;.pdb;.xml"
+            "related": ".dll.config;.xml;.pdb"
           }
         }
       },
@@ -600,12 +600,12 @@
         },
         "compile": {
           "ref/netcoreapp3.1/Microsoft.Data.SqlClient.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtimeTargets": {
@@ -1155,12 +1155,12 @@
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         }
       },
@@ -1223,12 +1223,12 @@
         },
         "compile": {
           "lib/net6.0/MimeKit.dll": {
-            "related": ".dll.config;.pdb;.xml"
+            "related": ".dll.config;.xml;.pdb"
           }
         },
         "runtime": {
           "lib/net6.0/MimeKit.dll": {
-            "related": ".dll.config;.pdb;.xml"
+            "related": ".dll.config;.xml;.pdb"
           }
         }
       },
@@ -1290,12 +1290,12 @@
         },
         "compile": {
           "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "frameworkReferences": [
@@ -1309,12 +1309,12 @@
         },
         "compile": {
           "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         }
       },
@@ -1322,12 +1322,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "frameworkReferences": [
@@ -4464,23 +4464,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\R\\.nuget\\packages\\": {},
+    "C:\\Users\\KINO\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\R\\Desktop\\Boundmax\\ApiProje\\Presentation\\ParkCinema.API\\Boundmax.API.csproj",
+      "projectUniqueName": "C:\\Users\\KINO\\Desktop\\Boundmax-Api\\Boundmax\\ApiProje\\Presentation\\ParkCinema.API\\Boundmax.API.csproj",
       "projectName": "Boundmax.API",
-      "projectPath": "C:\\Users\\R\\Desktop\\Boundmax\\ApiProje\\Presentation\\ParkCinema.API\\Boundmax.API.csproj",
-      "packagesPath": "C:\\Users\\R\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\R\\Desktop\\Boundmax\\ApiProje\\Presentation\\ParkCinema.API\\obj\\",
+      "projectPath": "C:\\Users\\KINO\\Desktop\\Boundmax-Api\\Boundmax\\ApiProje\\Presentation\\ParkCinema.API\\Boundmax.API.csproj",
+      "packagesPath": "C:\\Users\\KINO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\KINO\\Desktop\\Boundmax-Api\\Boundmax\\ApiProje\\Presentation\\ParkCinema.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\R\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\KINO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4495,8 +4495,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\R\\Desktop\\Boundmax\\ApiProje\\Infrastructure\\ParkCinema.Persistance\\Boundmax.Persistance.csproj": {
-              "projectPath": "C:\\Users\\R\\Desktop\\Boundmax\\ApiProje\\Infrastructure\\ParkCinema.Persistance\\Boundmax.Persistance.csproj"
+            "C:\\Users\\KINO\\Desktop\\Boundmax-Api\\Boundmax\\ApiProje\\Infrastructure\\ParkCinema.Persistance\\Boundmax.Persistance.csproj": {
+              "projectPath": "C:\\Users\\KINO\\Desktop\\Boundmax-Api\\Boundmax\\ApiProje\\Infrastructure\\ParkCinema.Persistance\\Boundmax.Persistance.csproj"
             }
           }
         }
@@ -4595,7 +4595,7 @@
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "'System.IdentityModel.Tokens.Jwt' 7.0.3 paketinde önem derecesi orta olan bilinen bir https://github.com/advisories/GHSA-59j7-ghrg-fj52 güvenlik açığı var",
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 7.0.3 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
       "libraryId": "System.IdentityModel.Tokens.Jwt",
       "targetGraphs": [
         "net6.0"
