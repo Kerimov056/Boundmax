@@ -1,6 +1,7 @@
 using Google.Apis.Auth.OAuth2;
 using Google.Cloud.Storage.V1;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using ParkCinema.Infrastructure;
 using ParkCinema.Persistance.Context;
@@ -16,9 +17,12 @@ builder.Services.AddPersistenceServices();
 builder.Services.AddInfrastructureServices();
 builder.Services.AddScoped<AppDbContextInitializer>();
 
+var connectionString = builder.Configuration.GetConnectionString("Default");
+builder.Services.AddDbContext<AppDbContext>(options => options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
 // Configure Google Storage Client
-builder.Services.AddSingleton(sp => {
+builder.Services.AddSingleton(sp =>
+{
     string credentialsPath = builder.Configuration["GoogleCloud:ApiKey"];
     var credential = GoogleCredential.FromFile(credentialsPath);
     return StorageClient.Create(credential);
@@ -75,17 +79,15 @@ using (var scope = app.Services.CreateScope())
 }
 
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseSwagger();
+app.UseSwaggerUI();
 app.UseCors();
 app.UseCors(cors => cors
             .AllowAnyHeader()
             .AllowAnyMethod()
             .SetIsOriginAllowed(x => true)
             .AllowCredentials());
+
 app.UseHttpsRedirection();
 //app.UseCustomExceptionhandler(); //Hellelik bagli tut cunki errorlarin sebini gomelisen!
 app.UseAuthentication();

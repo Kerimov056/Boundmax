@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Boundmax.Persistance")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e622d34853a184afacd96e856cf3279ecc6046ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11c58d8f7db6abd82ccfd292acd0a31878c3a495")]
 [assembly: System.Reflection.AssemblyProductAttribute("Boundmax.Persistance")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Boundmax.Persistance")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -27,11 +27,6 @@ public static class ServiceRegistration
 
     public static void AddPersistenceServices(this IServiceCollection services)
     {
-        services.AddDbContext<AppDbContext>(options =>
-        {
-            options.UseSqlServer(services.BuildServiceProvider().GetService<IConfiguration>().GetConnectionString("Default"));
-        });
-
 
         //Repository
         services.AddReadRepositories();

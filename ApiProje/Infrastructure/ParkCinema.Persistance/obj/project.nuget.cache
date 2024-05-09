@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Th1cyarMptJ939c/HQZ4YnhnwWmsxyf/Bim7GFv+RaI9hmWU7KqX1cLxeNPVje70dvy/+J5xl/Nt08CGq9q08w==",
+  "dgSpecHash": "0W8AxNURm7PupIe/MaxbtMQNghnOhgdazPfDACqzB2JrTTOnpKYi4iH/CfCR3CuPi2K4pTu2tG7+48O9TkJmRA==",
   "success": true,
   "projectFilePath": "C:\\Users\\KINO\\Desktop\\Boundmax-Api\\Boundmax\\ApiProje\\Infrastructure\\ParkCinema.Persistance\\Boundmax.Persistance.csproj",
   "expectedPackageFiles": [
@@ -65,7 +65,9 @@
     "C:\\Users\\KINO\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\KINO\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\KINO\\.nuget\\packages\\mimekit\\4.2.0\\mimekit.4.2.0.nupkg.sha512",
+    "C:\\Users\\KINO\\.nuget\\packages\\mysqlconnector\\2.0.0\\mysqlconnector.2.0.0.nupkg.sha512",
     "C:\\Users\\KINO\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\KINO\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\6.0.0\\pomelo.entityframeworkcore.mysql.6.0.0.nupkg.sha512",
     "C:\\Users\\KINO\\.nuget\\packages\\qrcoder\\1.4.3\\qrcoder.1.4.3.nupkg.sha512",
     "C:\\Users\\KINO\\.nuget\\packages\\stripe.net\\43.2.0\\stripe.net.43.2.0.nupkg.sha512",
     "C:\\Users\\KINO\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",

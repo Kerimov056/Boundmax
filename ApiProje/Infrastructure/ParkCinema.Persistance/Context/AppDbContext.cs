@@ -22,4 +22,7 @@ public class AppDbContext : IdentityDbContext<AppUser>
     public DbSet<Authors> Authors { get; set; }
     public DbSet<References> References { get; set; }
     public DbSet<BlogDescriptions> BlogDescriptions { get; set; }
+
+
+    public DbSet<Test> Tests { get; set; }
 }

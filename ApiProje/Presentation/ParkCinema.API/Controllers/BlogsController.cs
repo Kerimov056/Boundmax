@@ -50,6 +50,7 @@ public class BlogsController : ControllerBase
         var byBlog = await _blogService.GetByIdAsync(Id);
         return Ok(byBlog);
     }
+    
 
     [HttpGet("[action]")]
     public async Task<IActionResult> GetSearchBlogs(string? searchText, int pageNumber = 1, int pageSize = 12)
@@ -76,7 +77,7 @@ public class BlogsController : ControllerBase
             memoryStream.Position = 0;
 
             var objectName = $"Images/{Guid.NewGuid()}_{blogCreateImageFile.ImageFile.FileName}";
-            var bucketName = "boundmax";
+            var bucketName = "boundmaxxx";
 
             await client.UploadObjectAsync(bucketName, objectName, null, memoryStream);
             var url = $"https://storage.googleapis.com/{bucketName}/{objectName}";
